@@ -1,0 +1,80 @@
+footer{
+  background-image: url(/images/Mask.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 329px;
+  .footer__title{
+    width: 450px;
+    padding-top: 102px;
+    margin-left: 165px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;    
+  }
+  .socials{
+    margin-left: 916px;
+    margin-top: -70px;
+    img{
+      margin-left: 20px;
+    }
+  }
+  .footer__box{
+    margin-top: 108px;
+    border: 1px solid;
+    background-color: #333A44;
+    display: flex;
+    align-items: center;
+    padding: 33px;
+    img{
+      height: 28.56px;
+      margin-left: 160px;
+    }
+      .footer__list{
+        display: flex;
+        padding-left: 40px;
+        gap: 32px; 
+        padding-top: 20px;
+      }
+      .footer__list__item{
+        list-style: none;
+        
+        a{
+          text-decoration: none;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 25px;
+          color: #939CAA;          
+        }
+      }
+      .icons{
+        display: flex;
+        margin-left: 548px;
+        .fa-brands{
+          color: #FCB72B;
+          font-size: 24px;
+          padding: 10px;      
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    footer{
+      .footer__title{
+        text-align: center;
+        padding-top: 40px;
+      }
+      .socials{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 180px;
+      }
+      .icons{
+        display: none;
+      }
+    }
+  }
